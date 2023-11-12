@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/welcome', function () {
-    return view('welcome');
+     dd('welcome');
 });
 
 Route::get("/chatbot",function(){
