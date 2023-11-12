@@ -18,7 +18,7 @@ Route::get('/welcome', function () {
 });
 
 Route::get("/chatbot",function(){
-    dd("Chatbot");
+    dd("chatbot");
 }); 
 
 Route::get("/chatbot/{nurse_id}",function($id){
