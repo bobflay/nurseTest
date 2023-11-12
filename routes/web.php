@@ -20,3 +20,7 @@ Route::get('/welcome', function () {
 Route::get("/chatbot",function(){
     dd("Chatbot");
 }); 
+
+Route::get("/chatbot/{nurse_id}",function($id){
+    dd("nurse id ".$id);
+});
